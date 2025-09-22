@@ -1,0 +1,53 @@
+button{
+    background-color: #0B85C4;
+    color: white;
+    padding: 3px;
+    border: 1px solid #0B85C4;
+    border-radius: 3px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+#remover{
+    border: 1px solid #c40b0b;
+    background-color: #c40b0b;
+}
+
+.columnContainer{
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.flexColumn{
+    flex: 1 1 auto;
+    padding: 10px;
+    margin-top: 10px;
+    height: 90vh;
+}
+
+#col1{
+    background-color: #ed5555;
+}
+
+#col2{
+    background-color: #778bff;
+}
+
+#col3{
+    background-color: #77ffc0;
+}
+
+.bloqueAd{
+    flex: auto;
+    padding-top: 10px;
+
+    font-size: 1em;
+    text-align: center;
+
+    background-color: #a777ff;
+    color: white;
+
+    margin-top: 10px
+}
